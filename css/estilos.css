@@ -1,0 +1,88 @@
+*{
+	width: 100%;
+	margin: 0;
+	padding: 0;	
+
+}
+
+
+a{
+      padding: 10px 20px;
+}
+a: link{
+
+   color: red;
+}
+a:hover{
+ background: blue;
+ color: White;
+ 
+}
+.menu{
+	background: black;
+	position:  relative;
+	bottom:0px;
+    width: 100%;
+    
+}
+.menu li a{
+	margin: 0;
+	width: 200px;
+	color: white;
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	font: bold 16px verdana;
+}
+.menu li{
+	
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+
+}
+footer{
+	background: black;
+	width: 100%
+
+}
+footer p{
+	color:white ;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.bienvenida h2{
+	background: black;
+	color: white;
+	width: 100%
+
+  
+}
+.bienvenida{
+	text-align: justify;
+	background: #EAEDED;
+	width: 40%;
+	margin: 10px;
+	position: relative;
+	top: 100px;
+	left: 30px;
+
+}
+.bienvenida p{
+	margin: 10px;
+	width: 95%;
+	font-size: 20px;
+}
+.contenedor{
+	width: 100%
+	max-width: 100%;
+}
+header{
+	position: fixed;
+	z-index: 100;
+}
+.contenido{
+	height: 100px
+}
